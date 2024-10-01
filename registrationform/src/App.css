@@ -1,0 +1,61 @@
+.container{
+  height: 100vh;
+  width: 100%;
+  background-color: #212222;
+}
+
+.heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  color: aliceblue;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: capitalize;
+}
+.heading h1{
+  font-family:Cambria, Cochin, Georgia, Times;
+}
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+.inputFields{
+  padding: 20px;
+  width: 30%;
+}
+.inputRow{
+  margin-top: 10px;
+}
+.inputRow label{
+  font-size: 17px;
+  color: aliceblue;
+}
+.inputRow input{
+  width: 100%;
+  margin:auto;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background-color: #787e80;
+}
+.inputRow input::placeholder{
+  color: whitesmoke;
+  text-transform: capitalize;
+}
+
+.button{
+  height: 40px;
+  width: 80px;
+  margin-top: 20px;
+  background-color: blue;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  color: aliceblue;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  cursor: pointer;
+}
